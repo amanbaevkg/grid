@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Circle;
+    src: url("../fonts/Circe-Regular.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: Gilam Regular;
+    src: url("../fonts/Gilam-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Gilam Book;
+    src: url("../fonts/Gilam-Book.ttf") format("truetype");
+}
+
+
+/* header */
+
+:root  {
+    background: url(./img/—Pngtree—kyrgyzstan\ flag\ illustration\ vector\ waving_5221526.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    scroll-behavior: smooth;
+    
+}
+
+.container {
+    max-width: 1920px;
+    color: white;
+    font-family: 'Gilam Regular', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 0 230px 0 230px;
+} 
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 45px;
+}
+
+
+.Feedback {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.number-phone {
+    font-family: Circle;
+    font-weight: 700;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.color-number {
+    color: #E4B564;
+}
+
+.box-callback {
+    border: 1px solid #E4B564;
+    padding: 10px 25px;
+    box-shadow: inset  0 0 5px 2px #cfa313;
+}
+
+.img-logo {
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.link-btn {
+    text-decoration: none;
+    color: #E4B564;
+    font-family: Circle;
+    font-weight: 400;
+}
+
+h1 {
+    padding-top: 130px;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.text {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.first-section {
+    display: grid;
+    min-height: 966px;
+    grid-template-columns: repeat(auto-fill(6, 1fr));
+    grid-template-areas: 
+    "itm_1 itm_1 itm_2 itm_2 itm_3 itm_3"
+    "itm_4 itm_4 itm_4 itm_5 itm_5 itm_5";
+    gap: 25px;
+
+}
+
+.item-firstgrid {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.center-itm-grid {
+    align-self: center;
+}
+
+.one {
+    grid-area: itm_1;
+    background-color: #634F2C;
+}
+
+.two {
+    grid-area: itm_2;
+    background-color: #B4A385; 
+}
+
+.three {
+    grid-area: itm_3;
+    background-color: #E4B564;
+}
+
+.four {
+    grid-area: itm_4;
+    background-color: #635A4A;
+}
+
+.five {
+    grid-area: itm_5;
+    background-color: #B08C4D;
+}
+
+
+
+/* second_section Собственный парк строительной техники: */
+
+.container > h2 {
+    font-size: 50px;
+    padding-top: 160px;
+    padding-bottom: 95px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 910px;
+    gap: 30px;
+}
+
+.second-section-itm > p {
+    font-weight: 500;
+}
+
+.text-gilam-book {
+    font-family: 'Gilam-Book';
+    font-weight: 700;
+}
+
+.second-section-itm {
+    text-decoration: none;
+    color: #FFFFFF;
+    flex-shrink: 0;
+}
+
+.second-one {
+    background-color: #0E0E0E;
+    min-height: 315px;
+}
+
+.second-two {
+    background-color: #1F1F1F;
+    min-height: 563px;
+}
+
+.second-three {
+    background-color: #242424;
+    min-height: 440px;
+}
+
+.second-four {
+    background-color: #E4B564;
+    min-height: 438px;
+    color: #000000;
+}
+
+.second-five {
+    background-color: #1F1F1F;
+    min-height: 255px;
+}
+
+.second-six {
+    background-color: #0E0E0E;
+    min-height: 315px;
+}
+
+.second-seven {
+    background-color: #0A0909;
+    min-height: 278px;
+}
+
+.second-section a p {
+    padding: 44px 52px;
+}
+
+/* section_3 Наши клиенты и проекты. */
+
+.container-3-background {
+    background: url(./img/flag-of-ukraine-with-trident-silk-close-up_406939-963.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 161px;
+}
+
+.section-3 > h2 {
+    font-size: 50px;
+}
+
+.btn-last {
+    border: 1px solid #E4B564;
+    padding: 10px 40px;
+}
+
+
+.grid-section-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 780px;
+    padding-top: 70px;
+    padding-bottom: 238px;
+}
+
+.itm-last-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.itm-last-grid > img > p {
+    font-weight: 500;
+}
+
+.itm-section-3 {
+    text-align: center;
+}
+
+.itm1 {
+    background-color: #634F2C;
+}
+
+.itm2 {
+    background-color: #E8D2AB;
+}
+
+.itm3 {
+    background-color: #E4B564;
+}
+
+.itm4 {
+    background-color: #635A4A;
+}
+
+.itm5 {
+    background-color: #B08C4D;
+}
+
+.itm6 {
+    background-color: #634F2C;
+}
+
